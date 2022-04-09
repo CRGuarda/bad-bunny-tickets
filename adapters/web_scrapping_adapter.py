@@ -19,5 +19,6 @@ def start_webdriver():
     options = Options()
     user_agent = USER_AGENT.random
     options.add_argument(f'user-agent={user_agent}')
+    options.add_argument("--window-size=1100,1000")
     options.add_experimental_option("detach", True)
     return webdriver.Chrome(CHROME_EXEC_PATH, options=options)
