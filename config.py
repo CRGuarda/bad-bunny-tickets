@@ -1,4 +1,4 @@
 """Contains Configurable properties of the application."""
 
 
-NUMBER_OF_QUEUES = 50
+NUMBER_OF_QUEUES = 40
